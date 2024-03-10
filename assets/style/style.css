@@ -1,8 +1,8 @@
 .container {
     width: 1500px;
-    height: 1380px;
+    height: 1000px;
     display: grid;
-    grid-template-rows: 117px 1fr 480px;
+    grid-template-rows: 100px 1fr 300px;
     padding: 0;
     margin: 0;
     gap: 0;
@@ -44,16 +44,18 @@
 
 .main {
     background-image: url(../images/Фон.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .text1 {
     display: grid;
     width: 622px;
     height: 231px;
-    grid-row: 1/2;
+    grid-row: 2/3;
     grid-column: 2/3;
     align-items: end;
     font-size: 60px;
@@ -61,7 +63,7 @@
 }
 
 .text2 {
-    grid-row: 2/3;
+    grid-row: 3/4;
     grid-column: 2/3;
 }
 
